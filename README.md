@@ -13,17 +13,23 @@ AWS CLI configured with necessary credentials (Install AWS CLI)
 
 An AWS account with appropriate permissions
 
-#Project Structure
+# Project Structure
 
 Hosting_Website_On_S3_Using_Terraform/
+
 ├── main.tf
+
 ├── variables.tf
+
 ├── outputs.tf
+
 ├── index.html
+
 ├── styles.css
+
 └── README.md
 
-#Terraform Configuration
+# Terraform Configuration
 
 1. Define the S3 Bucket
 
@@ -65,7 +71,7 @@ output "website_url" {
   value = aws_s3_bucket.website_bucket.website_endpoint
 }
 
-#Usage
+# Usage
 
 1. Initialize Terraform
 
@@ -89,13 +95,13 @@ terraform apply -auto-approve
 
 Once the deployment is complete, Terraform will output the S3 website URL. Open it in your browser to view the hosted site.
 
-#Cleanup
+# Cleanup
 
 To delete the resources created by Terraform, run:
 
 terraform destroy -auto-approve
 
-#Conclusion
+# Conclusion
 
 This project showcases how to use Terraform to automate the deployment of a static website on Amazon S3.
 By leveraging Terraform's declarative approach, infrastructure provisioning becomes efficient, repeatable, and manageable.
