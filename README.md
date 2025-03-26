@@ -3,6 +3,8 @@ Hosting a simple website on amazon s3 using terraform (IaC)
 This project demonstrates how to host a simple static website on Amazon S3 using Terraform as Infrastructure as Code (IaC).
 The website consists of HTML and CSS files, which are deployed to an S3 bucket.
 
+https://github.com/Pepuhove/Hosting_Website_On_S3_Using_Terraform/blob/9fb8348aa459b4488760e7642147d4a9d698d7e6/website%20on%20s3.png
+
 # Prerequisites
 
 Before you begin, ensure you have the following:
